@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "iqual Runtime Developer: On",
+            "type": "shell",
+            "command": "bash scripts/develop_devcontainer_runtime_on.sh",
+            "group": "test",
+            "presentation": {
+                "reveal" : "never",
+            }
+        },
+        {
+            "label": "iqual Runtime Developer: Off",
+            "type": "shell",
+            "command": "bash scripts/develop_devcontainer_runtime_off.sh",
+            "group": "test",
+            "presentation": {
+                "reveal" : "always",
+            }
+        },
+        {
+            "label": "iqual Project Manager: Revert runtime to released version",
+            "type": "shell",
+            "command": "bash scripts/revert_runtime_to_released_version.sh",
+            "group": "test",
+            "presentation": {
+                "reveal" : "always",
+            }
+        },
+        {
+            "label": "iqual Project Manager: Initialize Project",
+            "type": "shell",
+            "command": "bash scripts/init_project.sh",
+            "group": "test",
+            "presentation": {
+                "reveal" : "always",
+            }
+        },        
+    ]
+}

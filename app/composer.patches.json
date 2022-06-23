@@ -1,0 +1,10 @@
+{
+  "patches": {
+    "drupal/redirect": {
+      "Keep path on domain redirect": "./patches/20200512_redirect_domain_keep_path.patch"
+    },
+    "drupal/redirect_after_login": {
+      "Headers have already been sent after upgrade to Drupal 9.2": "https://www.drupal.org/files/issues/2021-06-20/3214949.patch"
+    }
+  }
+}

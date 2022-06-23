@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  js:
+    resources/js/custom.js: {}
+  css:
+    theme:
+      resources/css/custom.css: {}
+  dependencies:
+    - iq_barrio/global-styling

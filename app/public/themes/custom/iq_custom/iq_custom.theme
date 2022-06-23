@@ -1,0 +1,11 @@
+<?php
+
+function iq_custom_form_system_theme_settings_alter(&$form, $form_state, $form_id = null)
+{
+  unset( $form['iq_theme'] );
+  unset( $form['color_definitions'] );
+  unset( $form['typography'] );
+  unset( $form['navigation'] );
+  unset( $form['decorations'] );
+  unset( $form['patterns'] );
+}

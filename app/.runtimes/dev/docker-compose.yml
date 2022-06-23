@@ -1,0 +1,6 @@
+version: '3'
+services:
+  drupal_dev:
+    environment:
+      - VIRTUAL_HOST=commerce-rework-sw-project.localdev.iqual.ch,commerce-rework-sw-project.iqual.pagekite.me
+      - CERT_NAME=localdev.iqual.ch

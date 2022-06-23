@@ -1,0 +1,10 @@
+{
+    "name": "iqual-ch/iqual-sw-project",
+    "description": "Skeleton for iqual SW projects with runtime dependencies",
+    "type": "project",
+    "keywords": [],
+    "homepage": "https://www.iqual.ch/de",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "0.0.1"     
+}

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  pagekite_dev:
+    image: iqualch/dc-pagekite
+    volumes:
+      - type: bind
+        source: ./pagekite.conf
+        target: /root/.pagekite.rc
+    networks:
+      - localdev-proxied-webapps
+networks:
+  localdev-proxied-webapps:
+    external: true

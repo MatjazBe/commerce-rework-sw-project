@@ -1,0 +1,17 @@
+{
+  "name": "iqual/iq_custom",
+  "description": "Template for custom theming of iqual websites.",
+  "type": "drupal-custom-theme",
+  "keywords": [
+    "Drupal"
+  ],
+  "homepage": "https://github.com/iqual-ch/iq_custom",
+  "support": {
+    "issues": "https://github.com/iqual-ch/iq_custom/issues",
+    "source": "https://github.com/iqual-ch/iq_custom"
+  },
+  "require": {
+    "drupal/bootstrap_barrio": "*",
+    "iqual/iq_barrio": "*"
+  }
+}

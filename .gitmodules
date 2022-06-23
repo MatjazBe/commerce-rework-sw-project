@@ -1,0 +1,5 @@
+[submodule "devcontainer-runtime"]
+	path = .devcontainer
+	url = git@github.com:iqual-ch/devcontainer-runtime.git
+	branch = drupal-7.3
+	ignore = dirty
